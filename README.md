@@ -1,12 +1,35 @@
-# React + Vite
+# 🕹️ FPV Exploration Game (Built with Three.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **First-Person View (FPV) Exploration Game**, an immersive 3D experience developed using [Three.js](https://threejs.org/). In this game, you can freely explore a virtual world with real-time movement, gravity simulation, and interaction with 3D models. Built for web browsers, this game lets you walk around a digital environment just like a first-person game.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌄 Game Preview
 
-## Expanding the ESLint configuration
+![Game Screenshot](./assets/game-preview.png)  
+*A snapshot of the game environment (city + house model)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> 🎥 *Live Demo Coming Soon!*
+
+---
+
+## 🎮 Features
+
+- First-person movement using `W`, `A`, `S`, `D`, `Space`, and `Shift`.
+- Mouse-based camera rotation (pointer lock controls).
+- Gravity simulation for realism.
+- Loads `.glb` 3D models in a Three.js scene.
+- Interactive zone detection (press `Enter` near specific models to interact).
+- Optimized for performance and immersive gameplay.
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
