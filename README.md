@@ -6,12 +6,23 @@ Welcome to the **First-Person View (FPV) Exploration Game**, an immersive 3D exp
 
 ## 🌄 Game Preview
 
-![Game Screenshot](./assets/game-preview.png)  
+![Game Screenshot]()  
 *A snapshot of the game environment (city + house model)*
 
 > 🎥 *Live Demo Coming Soon!*
+## 🌄 Live Demo (Screenshots)
 
----
+Here are a few glimpses from the game:
+
+### 🏙️ City Environment
+![City Scene](public/images/gameentry.png)
+
+### 🏠 House Model
+![House Interior](public/images/hobbies.png)
+
+### 🔦 First-Person View Exploration
+![FPV Gameplay](public/images/game.png)
+
 
 ## 🎮 Features
 
