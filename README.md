@@ -36,11 +36,20 @@ Here are a few glimpses from the game:
 ---
 
 ## 📦 Getting Started
+### 1. Download models
+-go to public/models folder and read the text file 
+-download the models in the same folder 
 
-### 1. Clone the Repository
+
+
+
+### 2. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 npm install
 npm run dev
+
+### 3. Download models
+-in the running local link go to /gr for example http://localhost:5173/gr
