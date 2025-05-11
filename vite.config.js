@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'; // or vue or svelte, etc.
 
 export default defineConfig({
   plugins: [react()],
-  base:process.env.VITE_BASE_PATH || "website_portfolio",
+  base:process.env.VITE_BASE_PATH || "/",
   build: {
     chunkSizeWarningLimit: 1000, // Increase from default 500kB to 1000kB
 
