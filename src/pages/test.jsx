@@ -31,7 +31,7 @@ My goal is to combine my skills across backend, web, and gaming with the power o
       {/* Cards Section */}
       <section className="cards-section">
         <div className="cards-container">
-          <GlassCard1 title="Game" description="checkout a exploring game where u explore about me" link="https://github.com/S-Anuj-Srijan/a-3d-fpvgame-as-a-portfolio"  backgroundImage="/images/gameentry.png"/>
+          <GlassCard1 title="Game" description="checkout a exploring game where u explore about me" link="https://github.com/S-Anuj-Srijan/website_portfolio"  backgroundImage="/images/gameentry.png"/>
           <GlassCard title="My Passion" description="Find out more about me and what i am most Passionate about." route="/tech/passion" backgroundImage="/images/game.png"/>
           <GlassCard title="My experience and skill in tech" description="Explore my portfolio." route="/tech/abtme"  backgroundImage="/images/console.png" />
           <GlassCard title="My Hobbies" description="Explore my hobbies and if it interests you may be get in touch" route="/tech/music"  backgroundImage="/images/hobbies.png" />

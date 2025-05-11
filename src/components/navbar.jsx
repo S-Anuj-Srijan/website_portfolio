@@ -11,7 +11,7 @@ function Navbar(props) {
           <li><a href="/tech/passion">Passion</a></li>
           <li><a href="/tech/abtme">Tech</a></li>
           <li><a href="/tech/music">Hobbies</a></li>
-          <li><a href="https://github.com/S-Anuj-Srijan/a-3d-fpvgame-as-a-portfolio">Game</a></li>
+          <li><a href="https://github.com/S-Anuj-Srijan/website_portfolio">Game</a></li>
         </ul>
       </nav>
   );
