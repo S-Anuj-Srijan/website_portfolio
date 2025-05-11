@@ -41,13 +41,10 @@ function Canvas3D() {
         }}
         style={{
           position: 'absolute',
-          top: '-20%',
-          left: '20%',
-          transform: 'translate(-50%, -50%)',
-          width: '900vw',          // responsive width
-          maxWidth: '1000px',      // cap for large screens
-          zIndex: 1,
-          pointerEvents: 'none',
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          zIndex: 0,
         }}
       />
     </div>
