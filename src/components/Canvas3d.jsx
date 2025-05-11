@@ -16,7 +16,7 @@ function Canvas3D() {
     >
       {/* Background GIF */}
       <img
-        src="/images/Coding The Matrix GIF.gif" // replace with your actual path
+        src="/images/Coding The Matrix GIF.gif"
         alt="Background"
         style={{
           position: 'absolute',
@@ -29,23 +29,25 @@ function Canvas3D() {
 
       {/* Foreground GIF with animation */}
       <motion.img
-        src="/images/rotatingdesk.gif" // replace with your actual path
+        src="/images/rotatingdesk.gif"
         alt="Foreground"
         initial={{ y: 10 }}
         animate={{ y: 0 }}
         transition={{
           repeat: Infinity,
-          repeatType: "reverse",
+          repeatType: 'reverse',
           duration: 2,
-          ease: "easeInOut",
+          ease: 'easeInOut',
         }}
         style={{
           position: 'absolute',
           top: '-20%',
           left: '20%',
           transform: 'translate(-50%, -50%)',
-          width: '1000px',
+          width: '900vw',          // responsive width
+          maxWidth: '1000px',      // cap for large screens
           zIndex: 1,
+          pointerEvents: 'none',
         }}
       />
     </div>
